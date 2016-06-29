@@ -39,6 +39,14 @@ Browse:
 
 You should see a web page that says "Hello World".
 
+## Extras
+
+This demo also adds:
+
+  * A unit test.
+  * An integration test.
+  * Actuator, which provides health check monitoring.
+
 ## To change ports
 
 There are several ways to change the port number.
@@ -66,7 +74,7 @@ Using source code:
         @Bean
         public EmbeddedServletContainerCustomizer containerCustomizer() {
             return (container -> {
-                container.setPort(8012);
+                container.setPort(9999);
             });
         }
     }
