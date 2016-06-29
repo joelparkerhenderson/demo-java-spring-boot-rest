@@ -73,7 +73,6 @@ Using the file application.yml:
 
     server.port: 9999
 
-Using a
 Using source code:
 
     @Controller
@@ -85,3 +84,7 @@ Using source code:
             });
         }
     }
+
+Using a scan for a free port, and using OS natives to prevent clashes: use port 0.
+
+To switch off the HTTP endpoints completely, but still create a WebApplicationContext, use port 1. This is sometimes useful for testing.
