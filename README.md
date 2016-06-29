@@ -63,10 +63,17 @@ Using the file `application.properties` in `src/main/resources/`:
 
     server.port=9999
 
+Using the file `application.properties` with a custom command line variable:
+
+    server.port=${myport:8080}
+
+    $ java -Dmyport=9999 -jar build/libs/demo-0.0.1-SNAPSHOT.jar
+
 Using the file application.yml:
 
     server.port: 9999
 
+Using a
 Using source code:
 
     @Controller
