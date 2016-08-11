@@ -1,5 +1,7 @@
 # Demo Java Spring Boot REST
 
+<img src="README.png" alt="Spring logo" style="width: 100%;"/>
+
 See http://projects.spring.io/spring-boot/
 
 From the Spring website: "Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications that you can "just run". We take an opinionated view of the Spring platform and third-party libraries so you can get started with minimum fuss. Most Spring Boot applications need very little Spring configuration."
